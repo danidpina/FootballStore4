@@ -1,4 +1,16 @@
 <resources>
-    <string name="app_name">FootballStore</string>
+    <string name="app_name">Sports shop</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_material_casual">Casual material</string>
+    <string name="material_casual">Casual material</string>
+    <string name="material_desportivo">Sporting Goods</string>
+    <string name="roupa">Clothes</string>
+    <string name="acess_rios">Accessories</string>
+    <string name="cal_ado">Shoe</string>
+    <string name="title_activity_roupa_casual">Casual clothing</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="nome_da_pe_a">Name of the piece:</string>
+    <string name="escreva_aqui">Write here</string>
+    <string name="meus_intens">My itens</string>
 </resources>
