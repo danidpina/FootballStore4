@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".RoupaCasual"
+            android:label="@string/title_activity_roupa_casual"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MaterialCasual"
+            android:label="@string/title_activity_material_casual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">

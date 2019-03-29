@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loja desportiva</string>
+    <string name="action_settings">Opções</string>
+    <string name="title_activity_material_casual">Material Casual</string>
+    <string name="material_casual">Material Casual</string>
+    <string name="material_desportivo">Material Desportivo</string>
+    <string name="roupa">Roupa</string>
+    <string name="acess_rios">Acessórios</string>
+    <string name="cal_ado">Calçado</string>
+    <string name="title_activity_roupa_casual">Roupa Casual</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nome_da_pe_a">Nome da peça:</string>
+    <string name="escreva_aqui">Escreva aqui</string>
+    <string name="meus_intens">Meus itens</string>
+</resources>
