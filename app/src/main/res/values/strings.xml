@@ -13,5 +13,11 @@
     <string name="nome_da_pe_a">Name of the piece:</string>
     <string name="escreva_aqui">Write here</string>
     <string name="meus_intens">My itens</string>
-    <string name="nome">Nome</string>
+    <string name="nome">Name</string>
+    <string name="tamanho">Tamanho:</string>
+    <string name="quantidade">Quantidade:</string>
+    <string name="quantidadee">Quantidade</string>
+    <string name="tamanhoo">Tamanho</string>
+    <string name="preco">Price:</string>
+    <string name="precoo">Price</string>
 </resources>

@@ -14,4 +14,7 @@
     <string name="nome_da_pe_a">Nome da peça:</string>
     <string name="escreva_aqui">Escreva aqui</string>
     <string name="meus_intens">Meus itens</string>
+    <string name="nome">Nome</string>
+    <string name="preco">Preço:</string>
+    <string name="precoo">Preço</string>
 </resources>
