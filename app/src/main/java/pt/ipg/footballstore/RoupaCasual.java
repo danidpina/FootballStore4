@@ -46,21 +46,21 @@ public class RoupaCasual extends AppCompatActivity {
                 }
                 String mensagem1 = edittextquantidade.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittextnome.setError("Escreva algo");
+                    edittextquantidade.setError("Escreva algo");
                 }else{
                     finish();
                     Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
                 }
                 String mensagem2 = edittexttamanho.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittextnome.setError("Escreva algo");
+                    edittexttamanho.setError("Escreva algo");
                 }else{
                     finish();
                     Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
                 }
                 String mensagem3 = edittextpreco.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittextnome.setError("Escreva algo");
+                    edittextpreco.setError("Escreva algo");
                 }else{
                     finish();
                     Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
