@@ -20,10 +20,13 @@
     <string name="tamanhoo">Size</string>
     <string name="preco">Price:</string>
     <string name="precoo">Price</string>
-    <string name="title_activity_meus_intens">MeusIntens</string>
-    <string name="todos_os_intens">Todos os intens:</string>
-    <string name="editar">Editar</string>
-    <string name="eliminar">Eliminar</string>
-    <string name="title_activity_editar_intem">Editar</string>
-    <string name="title_activity_eliminar">Eliminar</string>
+    <string name="title_activity_meus_intens">My itens</string>
+    <string name="todos_os_intens">All the intens:</string>
+    <string name="editar">Edit</string>
+    <string name="eliminar">Delete</string>
+    <string name="title_activity_editar_intem">Edit</string>
+    <string name="title_activity_eliminar">Delete</string>
+    <string name="peca_alterada">Successfully altered part</string>
+    <string name="peca_guardada">Part saved</string>
+    <string name="escreva_algo">Write something</string>
 </resources>

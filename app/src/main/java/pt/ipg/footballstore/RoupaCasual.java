@@ -39,31 +39,31 @@ public class RoupaCasual extends AppCompatActivity {
             public void onClick(View v) {
                 String mensagem = edittextnome.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittextnome.setError("Escreva algo");
+                    edittextnome.setError(getString(R.string.escreva_algo));
                 }else{
                     finish();
-                    Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
                 }
                 String mensagem1 = edittextquantidade.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittextquantidade.setError("Escreva algo");
+                    edittextquantidade.setError(getString(R.string.escreva_algo));
                 }else{
                     finish();
-                    Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
                 }
                 String mensagem2 = edittexttamanho.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittexttamanho.setError("Escreva algo");
+                    edittexttamanho.setError(getString(R.string.escreva_algo));
                 }else{
                     finish();
-                    Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
                 }
                 String mensagem3 = edittextpreco.getText().toString();
                 if (mensagem.trim().length()==0){
-                    edittextpreco.setError("Escreva algo");
+                    edittextpreco.setError(getString(R.string.escreva_algo));
                 }else{
                     finish();
-                    Toast.makeText(RoupaCasual.this, "Peça guardada", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
                 }
             }
         });

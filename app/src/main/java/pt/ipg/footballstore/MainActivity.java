@@ -20,6 +20,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button botaomateiralcasual;
+    Button botaomeusintens;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,12 +30,20 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         botaomateiralcasual = (Button) findViewById(R.id.buttonMaterialCasual);
+        botaomeusintens = (Button) findViewById(R.id.buttonMeusIntens);
 
         botaomateiralcasual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent outraactivity=  new Intent(MainActivity.this,MaterialCasual.class);
                 Toast.makeText(getApplicationContext(), "Carregou em Material Casual", Toast.LENGTH_SHORT).show();
+                startActivity(outraactivity);
+            }
+        });
+        botaomeusintens.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent outraactivity = new Intent(MainActivity.this, MeusIntens.class);
                 startActivity(outraactivity);
             }
         });
