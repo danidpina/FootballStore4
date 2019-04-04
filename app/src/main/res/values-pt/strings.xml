@@ -30,4 +30,9 @@
     <string name="peca_alterada">Peça alterada com sucesso</string>
     <string name="peca_guardada">Peça guardada</string>
     <string name="escreva_algo">Escreva algo</string>
+    <string name="carregou_em_roupa">Carregou em roupa</string>
+    <string name="cancelado">Cancelado</string>
+    <string name="peca_eliminada">Peça eliminada</string>
+    <string name="carregou_em_material_casual">Carregou em material casual</string>
+    <string name="carregou_para_ver_todos_os_intens">Carregou para ver todos os intens</string>
 </resources>

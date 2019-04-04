@@ -31,7 +31,7 @@ public class MaterialCasual extends AppCompatActivity {
             public void onClick(View v) {
                 Intent outraactivity = new Intent(MaterialCasual.this, RoupaCasual.class);
                 startActivity(outraactivity);
-                Toast.makeText(getApplicationContext(), "Carregou em Roupa", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.carregou_em_roupa), Toast.LENGTH_SHORT).show();
             }
         });
     }

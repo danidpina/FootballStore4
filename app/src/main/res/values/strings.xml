@@ -29,4 +29,9 @@
     <string name="peca_alterada">Successfully altered part</string>
     <string name="peca_guardada">Part saved</string>
     <string name="escreva_algo">Write something</string>
+    <string name="peca_eliminada">Delete piece</string>
+    <string name="cancelado">Canceled</string>
+    <string name="carregou_em_roupa">Upload  in clothes</string>
+    <string name="carregou_em_material_casual">Loaded on casual material</string>
+    <string name="carregou_para_ver_todos_os_intens">Loaded to see all intens</string>
 </resources>

@@ -30,14 +30,14 @@ public class Eliminar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
-                Toast.makeText(Eliminar.this, "Peça eliminada com sucesso", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Eliminar.this, getString(R.string.peca_eliminada), Toast.LENGTH_SHORT).show();
             }
         });
         botaocancelar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
-                Toast.makeText(Eliminar.this, "Cancelado", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Eliminar.this, getString(R.string.cancelado), Toast.LENGTH_SHORT).show();
             }
         });
 

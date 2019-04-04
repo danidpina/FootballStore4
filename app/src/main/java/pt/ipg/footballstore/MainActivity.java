@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent outraactivity=  new Intent(MainActivity.this,MaterialCasual.class);
-                Toast.makeText(getApplicationContext(), "Carregou em Material Casual", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.carregou_em_material_casual), Toast.LENGTH_SHORT).show();
                 startActivity(outraactivity);
             }
         });
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent outraactivity = new Intent(MainActivity.this, MeusIntens.class);
-                Toast.makeText(getApplicationContext(), "Carregou para ver todos os intens", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.carregou_para_ver_todos_os_intens), Toast.LENGTH_SHORT).show();
                 startActivity(outraactivity);
             }
         });
