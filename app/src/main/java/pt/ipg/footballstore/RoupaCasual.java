@@ -38,29 +38,21 @@ public class RoupaCasual extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String mensagem = edittextnome.getText().toString();
-                if (mensagem.trim().length()==0){
-                    edittextnome.setError(getString(R.string.escreva_algo));
-                }else{
-                    finish();
-                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
-                }
                 String mensagem1 = edittextquantidade.getText().toString();
-                if (mensagem.trim().length()==0){
-                    edittextquantidade.setError(getString(R.string.escreva_algo));
-                }else{
-                    finish();
-                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
-                }
                 String mensagem2 = edittexttamanho.getText().toString();
-                if (mensagem.trim().length()==0){
-                    edittexttamanho.setError(getString(R.string.escreva_algo));
-                }else{
-                    finish();
-                    Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();
-                }
                 String mensagem3 = edittextpreco.getText().toString();
                 if (mensagem.trim().length()==0){
+                    edittextnome.setError(getString(R.string.escreva_algo));
+                    edittextnome.requestFocus();
+                }else if (mensagem1.trim().length()==0){
+                    edittextquantidade.setError(getString(R.string.escreva_algo));
+                    edittextquantidade.requestFocus();
+                }else if (mensagem2.trim().length()==0){
+                    edittexttamanho.setError(getString(R.string.escreva_algo));
+                    edittexttamanho.requestFocus();
+                }else if (mensagem3.trim().length()==0){
                     edittextpreco.setError(getString(R.string.escreva_algo));
+                    edittextpreco.requestFocus();
                 }else{
                     finish();
                     Toast.makeText(RoupaCasual.this, getString(R.string.peca_guardada), Toast.LENGTH_SHORT).show();

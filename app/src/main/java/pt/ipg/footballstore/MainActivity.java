@@ -20,7 +20,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button botaomateiralcasual;
-    Button botaomeusintens;
+    private Button botaomeusintens;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent outraactivity = new Intent(MainActivity.this, MeusIntens.class);
+                Toast.makeText(getApplicationContext(), "Carregou para ver todos os intens", Toast.LENGTH_SHORT).show();
                 startActivity(outraactivity);
             }
         });

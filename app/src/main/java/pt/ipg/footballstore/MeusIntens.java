@@ -14,8 +14,8 @@ import android.widget.Button;
 
 public class MeusIntens extends AppCompatActivity {
 
-    Button botaoeliminar;
-    Button botaoeditar;
+    private Button botaoeliminar;
+    private Button botaoeditar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,12 +23,11 @@ public class MeusIntens extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        botaoeditar = (Button) findViewById(R.id.buttonEliminar);
-
+        botaoeliminar = (Button) findViewById(R.id.buttonEliminar);
         botaoeliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent outraactivity = new  Intent(MeusIntens.this,Eliminar.class);
+                Intent outraactivity = new Intent(MeusIntens.this, Eliminar.class);
                 startActivity(outraactivity);
             }
         });
