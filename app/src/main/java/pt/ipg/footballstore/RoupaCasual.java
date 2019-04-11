@@ -47,9 +47,15 @@ public class RoupaCasual extends AppCompatActivity {
                 }else if (mensagem1.trim().length()==0){
                     edittextquantidade.setError(getString(R.string.escreva_algo));
                     edittextquantidade.requestFocus();
+                }else if(mensagem1.length() != 0){
+                    edittextquantidade.setError(getString(R.string.quantidade_invalida));
+                    edittextquantidade.requestFocus();
                 }else if (mensagem2.trim().length()==0){
                     edittexttamanho.setError(getString(R.string.escreva_algo));
                     edittexttamanho.requestFocus();
+                }else if(mensagem3.length() != 0){
+                    edittextpreco.setError(getString(R.string.preco_invalido));
+                    edittextpreco.requestFocus();
                 }else if (mensagem3.trim().length()==0){
                     edittextpreco.setError(getString(R.string.escreva_algo));
                     edittextpreco.requestFocus();

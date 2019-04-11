@@ -34,4 +34,6 @@
     <string name="carregou_em_roupa">Upload  in clothes</string>
     <string name="carregou_em_material_casual">Loaded on casual material</string>
     <string name="carregou_para_ver_todos_os_intens">Loaded to see all intens</string>
+    <string name="quantidade_invalida">Quantidade invalida</string>
+    <string name="preco_invalido">Preço invalido</string>
 </resources>
