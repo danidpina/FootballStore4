@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".MaterialCasualCalcado"
+            android:label="@string/title_activity_material_casual_calcado"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Eliminar"
             android:label="@string/title_activity_eliminar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EditarIntem"
             android:label="@string/title_activity_editar_intem"
