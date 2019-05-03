@@ -16,6 +16,7 @@ import android.widget.Toast;
 public class MaterialCasual extends AppCompatActivity {
 
     private Button botaoroupacasual;
+    private Button botaocalcado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class MaterialCasual extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         botaoroupacasual= (Button) findViewById(R.id.buttonRoupa);
+        botaocalcado=(Button) findViewById(R.id.buttonCalcado);
 
         botaoroupacasual.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +34,13 @@ public class MaterialCasual extends AppCompatActivity {
                 Intent outraactivity = new Intent(MaterialCasual.this, RoupaCasual.class);
                 startActivity(outraactivity);
                 Toast.makeText(getApplicationContext(), getString(R.string.carregou_em_roupa), Toast.LENGTH_SHORT).show();
+            }
+        });
+        botaocalcado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent outraactivity = new Intent(MaterialCasual.this, MaterialCasualCalcado.class);
+                startActivity(outraactivity);
             }
         });
     }
