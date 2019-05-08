@@ -37,4 +37,20 @@
     <string name="quantidade_invalida">Quantidade invalida</string>
     <string name="preco_invalido">Preço invalido</string>
     <string name="title_activity_material_casual_calcado">Material Casual Calçado</string>
+    <string name="title_activity_material_casual_opcoes">MaterialCasualOpcoes</string>
+    <string name="title_activity_material_desportivo_opcoes">MaterialDesportivoOpcoes</string>
+    <string name="carregou_material_desportivo">carregou em material desportivo</string>
+    <string name="inserir">Inserir</string>
+    <string name="material_casuall">Material casual:</string>
+    <string name="title_activity_material_casual_editar">Material Casual Editar</string>
+    <string name="title_activity_material_casual_eliminar">MaterialCasualEliminar</string>
+    <string name="categoria">Categoria</string>
+    <string name="title_activity_pagina_categorias">Categorias</string>
+    <string name="todas_as_categorias">Todas as categorias:</string>
+    <string name="carregou_categorias">carregou em categorias</string>
+    <string name="title_activity_inserir_categoria">Inserir Categoria</string>
+    <string name="title_activity_editar_categoria">EditarCategoria</string>
+    <string name="title_activity_eliminar_categoria">EliminarCategoria</string>
+    <string name="nome_da_catgoria">Nome da catgoria:</string>
+    <string name="categoria_guardada">Categoria Guardada</string>
 </resources>

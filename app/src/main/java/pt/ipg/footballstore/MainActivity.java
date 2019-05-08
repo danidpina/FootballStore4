@@ -19,8 +19,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button botaomateiralcasual;
+    private Button botaomaterialcasual;
     private Button botaomeusintens;
+    private  Button botaomaterialdesportivo;
+    private Button botaocategorias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +31,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        botaomateiralcasual = (Button) findViewById(R.id.buttonMaterialCasual);
+        botaomaterialcasual = (Button) findViewById(R.id.buttonMaterialCasual);
         botaomeusintens = (Button) findViewById(R.id.buttonMeusIntens);
-
-        botaomateiralcasual.setOnClickListener(new View.OnClickListener() {
+        botaomaterialdesportivo = (Button) findViewById(R.id.buttonMaterialDesportivo );
+        botaocategorias=(Button) findViewById(R.id.buttonCategoria);
+        botaomaterialcasual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent outraactivity=  new Intent(MainActivity.this,MaterialCasual.class);
+                Intent outraactivity=  new Intent(MainActivity.this,MaterialCasualOpcoes.class);
                 Toast.makeText(getApplicationContext(), getString(R.string.carregou_em_material_casual), Toast.LENGTH_SHORT).show();
                 startActivity(outraactivity);
             }
@@ -45,6 +48,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent outraactivity = new Intent(MainActivity.this, MeusIntens.class);
                 Toast.makeText(getApplicationContext(), getString(R.string.carregou_para_ver_todos_os_intens), Toast.LENGTH_SHORT).show();
+                startActivity(outraactivity);
+            }
+        });
+        botaomaterialdesportivo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent outraactivity=  new Intent(MainActivity.this,MaterialDesportivoOpcoes.class);
+                Toast.makeText(getApplicationContext(), getString(R.string.carregou_material_desportivo), Toast.LENGTH_SHORT).show();
+                startActivity(outraactivity);
+            }
+        });
+        botaocategorias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent outraactivity=  new Intent(MainActivity.this,PaginaCategorias.class);
+                Toast.makeText(getApplicationContext(), getString(R.string.carregou_categorias), Toast.LENGTH_SHORT).show();
                 startActivity(outraactivity);
             }
         });
